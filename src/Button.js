@@ -4,6 +4,9 @@ const buttonStyle = {
   minHeight: "2em",
 };
 
+// ************************************************************************************************************************ //
+// BUTTON FUNCTION COMPONENT (embedded in export) //////////////////////////////////////////////////////
+// ************************************************************************************************************************ //
 export default function Button({ onClick, children }) {
   return (
     <button style={buttonStyle} onClick={onClick}>
